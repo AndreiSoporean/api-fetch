@@ -50,7 +50,6 @@ class App extends React.Component {
     );
   }
 
-
   getSuperHero = async (e) => {
     e.preventDefault();
     const superHero = e.target.elements.superhero.value;
